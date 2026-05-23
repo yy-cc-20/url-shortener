@@ -1,0 +1,6 @@
+packages:
+  - 'frontend'
+  - 'backend'
+allowBuilds:
+  '@nestjs/core': false
+  unrs-resolver: false

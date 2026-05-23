@@ -1,0 +1,22 @@
+Frontend: React, chakra-ui
+Backend: Node.js + TypeScript + NestJS (with modular architecture and dependency injection)
+Database: PostgreSQL
+Cache: Redis
+npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier
+unit test:
+ 1. Short code generator
+  2. URL service logic
+  3. Redirect logic
+
+What you do NOT need to test
+Controllers
+Database
+React UI
+
+Table urls {
+  short_url varchar(10) [primary key]
+  long_url varchar [not null]
+  click_count integer [not null]
+  expiry_time timestamp
+  created_at timestamp [not null]
+}
