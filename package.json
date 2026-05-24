@@ -17,8 +17,11 @@
     "lint-staged": "^17.0.5"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint --fix"
+    "backend/**/*.{ts,tsx}": [
+      "pnpm --filter backend exec eslint --fix"
+    ],
+    "frontend/**/*.{ts,tsx}": [
+      "pnpm --filter frontend exec eslint --fix"
     ]
   }
 }
