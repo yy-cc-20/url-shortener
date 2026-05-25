@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "shortCode": "a1B2c3",
+    "longUrl": "https://www.google.com",
+    "createdAt": "2026-05-25T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "shortCode": "xYz789",
+    "longUrl": "https://github.com",
+    "createdAt": "2026-05-25T10:05:00Z"
+  },
+  {
+    "id": 3,
+    "shortCode": "QwErTy",
+    "longUrl": "https://stackoverflow.com/questions",
+    "createdAt": "2026-05-25T10:10:00Z"
+  }
+]

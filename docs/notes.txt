@@ -1,0 +1,14 @@
+Frontend: React + TypeScript + Tailwind + shadcn
+Backend: Node.js + TypeScript + NestJS (with modular architecture and dependency injection)
+Database: PostgreSQL
+Cache: Redis
+
+unit test:
+ 1. Short code generator
+  2. URL service logic
+  3. Redirect logic
+
+What you do NOT need to test
+Controllers
+Database
+React UI
